@@ -21,7 +21,7 @@ document.getElementById("resetTimer").addEventListener("click", () => {
 
 function displaytime() {
   milliseconds += 10;
-  if (milliseconds > 999) {
+  if (milliseconds > 990) {
     milliseconds = 0;
     seconds++;
     if (seconds > 59) {
